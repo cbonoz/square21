@@ -11,6 +11,8 @@ Pricing can be hard. With this project, we can help.
 
 Coming up with prices is hard, `SquareDynamicPricing` can help you price your items for a desired target volume based on historic data.
 
+Note this project is provided as is, and you are welcome to edit/extend the code to fit any use case you wish.
+
 See video for demo: 
 
 Built for the Square: Build what's POS_sible hackathon 2021.
