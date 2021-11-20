@@ -13,7 +13,7 @@ Coming up with prices is hard, `SquareDynamicPricing` can help you price your it
 
 Note this project is provided as is, and you are welcome to edit/extend the code to fit any use case you wish.
 
-See video for demo: 
+See video for demo: https://youtu.be/keEeoj2gu4g
 
 Built for the Square: Build what's POS_sible hackathon 2021.
 
