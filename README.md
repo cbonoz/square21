@@ -45,11 +45,10 @@ To use the dynamic slider in jupyter-lab, you'll need to install the below widge
 - Create test orders or run the program against your existing orders. Update the `ITEM_NAME` variable to the item you wish to analyze.
 - Scroll to the bottom of the notebook to see the scale for recommended price at different predicted sales volume levels.
 
-### Screenshots
-
-
 ### Pricing calculator
 ![Pricing calculator slider](./img/calculator.gif)
+
+### Screenshots
 
 #### Create test customers
 <img src="./img/create_customers.png" width=800/>
