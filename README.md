@@ -7,21 +7,21 @@ SquareDynamicPricing
 
 ### Context
 
-Pricing can be hard. With this project, we can help.
+Coming up with prices is hard, `SquareDynamicPricing` can help you price your items for a desired target volume based on your historic sales data data.
 
-Coming up with prices is hard, `SquareDynamicPricing` can help you price your items for a desired target volume based on historic data.
-
-Note this project is provided as is, and you are welcome to edit/extend the code to fit any use case you wish.
 
 See video for demo: https://youtu.be/keEeoj2gu4g
 
-Built for the Square: Build what's POS_sible hackathon 2021.
+Built for the Square: Build what's POS_sible hackathon 2021. Note this project is provided as is, and you are welcome to edit/extend the code to fit any use case you wish.
+
 
 ### How it works
 
 Uses the Square orders API to list orders in the user's account (up to preset order limit of 100 which could be extended). Alternatively, the pricing simulation also accepts test/manual input.
 
-After the orders are fetched, an exponential best fit curve is fit to your existing data to come up with a pricing strategy for sales on a particular target item.
+If you want to generate test orders/customers for simulation, you can also do so from this notebook via the customer and order API's (see `order_generator` and `customer_generator`). 
+
+After the orders are fetched, an exponential best fit curve is fit to your existing data to come up with a pricing strategy for sales on a particular target item. The curve parameters 
 
 Currently requires the item in question to be sold at different price points within an equivalent time interval for proper comparison.
 
