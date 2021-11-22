@@ -7,7 +7,7 @@ SquareDynamicPricing
 
 ### Context
 
-Coming up with prices is hard, `SquareDynamicPricing` can help you price your items for a desired target volume based on your historic sales data data.
+Coming up with prices is hard, `SquareDynamicPricing` can help you price your items for a desired target volume based on your historic sales data.
 
 
 See video for demo: https://youtu.be/keEeoj2gu4g
